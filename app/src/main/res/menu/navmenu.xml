@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/propertynav"
+        android:icon = "@drawable/ic_property"
+        android:title="Property"/>
+    <item
+        android:id="@+id/tenantNav"
+        android:icon="@drawable/ic_tenants"
+        android:title="Tenants" />
+    <item
+        android:id="@+id/addProperty1"
+        android:icon="@drawable/ic_add_13"
+        android:title="Add Property" />
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_messages"
+        android:title="Messages" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notifications"
+        android:title="Notifications" />
+
+</menu>

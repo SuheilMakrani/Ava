@@ -1,0 +1,1 @@
+include ':app', ':material-spinner-1.2.5', ':material-spinner', ':gradle-wrapper'

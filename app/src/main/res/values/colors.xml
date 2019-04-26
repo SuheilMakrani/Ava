@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E3B4B</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1E3B4B</color>
+    <color name="disabled_background_color">#101818</color>
+    <color name="disabled_text_color">#aaa</color>
+    <color name="grey">#8E8E93</color>
+    <color name ="text2">#000000</color>
+    <color name="text3">#727272</color>
+    <color name="inputText">#FFFFFF</color>
+    <color name = "actionbar">#1E3B4B</color>
+    <color name="overdue">#FF0000</color>
+    <color name="ontime">#008000</color>
+
+</resources>
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.suhei.irent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".Av1"
+        android:allowBackup="true"
+        android:icon="@drawable/logos_01"
+        android:label="Ava"
+        android:roundIcon="@drawable/logos_01"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".homeOwner"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.HOMEOWNER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userRegChoose"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".userCreateAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".homeTenant"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.HOMETENANT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddProperty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addBasic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addPropertyImages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addPropAgreement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".displayProperty"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.DISPLAYPROPERTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".displayPropertyTen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.DISPLAYPROPERTYTEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userSort">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userOwnerDetails" />
+
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase..messaging.default_notification_channel_id"
+            android:value="@string/channel_id" />
+
+        <activity android:name=".userTenantDetails">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.TARGETNOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Payment">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.PAYMENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ava" />
+        <activity android:name=".userTenantDetails1">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.TEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userAccountSettings" />
+        <activity android:name=".editProperty"></activity>
+        <activity android:name=".ChatActivity">
+            <intent-filter>
+                <action android:name="com.example.suhei.irent.CHAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

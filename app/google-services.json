@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1069823456666",
+    "firebase_url": "https://fyp2-c6fc2.firebaseio.com",
+    "project_id": "fyp2-c6fc2",
+    "storage_bucket": "fyp2-c6fc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069823456666:android:11954cf1048c581d",
+        "android_client_info": {
+          "package_name": "com.example.suhei.irent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069823456666-2dndp2sttin6nah8nmjvp0ejl2304rlp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suhei.irent",
+            "certificate_hash": "7190f515dd36c9808e91e0d358b6404a7fe03aef"
+          }
+        },
+        {
+          "client_id": "1069823456666-49lgnctvqjo85i2tvgb4m325votdsrkg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suhei.irent",
+            "certificate_hash": "9877f1334e0cfed3ef26af545e469b76ebe5d7a5"
+          }
+        },
+        {
+          "client_id": "1069823456666-pc3249jnmcsjlpq87j747u4b2pnhksu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoVzGTzTMFm7jXB7bxqbS3nYyO510TyTs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069823456666-pc3249jnmcsjlpq87j747u4b2pnhksu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

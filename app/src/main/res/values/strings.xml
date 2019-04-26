@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">IRent</string>
+    <string name="search_Action">Search</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="logout_action">Logout</string>
+    <string name="notification1">is requesting to rent your property</string>
+    <string name="notification2">has Accepted your request</string>
+    <string name="notification3">has Declined your request</string>
+    <string name="notification4">has made the Payment</string>
+    <string name="notification5">Rent is Due</string>
+    <string name="notification6">It is time to pay rent</string>
+    <string name="notification7">has paid the rent</string>
+    <string name="notification8">Contract Expiring soon</string>
+    <string name="notification9">Contract has Expired</string>
+    <string name="notification10">has decided to renew your contract.</string>
+    <string name="notification11">has decided to end your contract.</string>
+    <string name="notification12">has accepted and renewed their contract.</string>
+    <string name="notification13">has decided to end their contract.</string>
+    <string name="notification14">has sent you a message</string>
+    <string name="notification15">Dear Tenant, Your Contract has Expired</string>
+
+    <string name="channel_id">rent_channel</string>
+    <string name="overdue">Overdue</string>
+    <string name="ontime">Paid</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="noti">
+        <item>1 Month</item>
+        <item>2 Months</item>
+        <item>3 Months</item>
+    </string-array>
+
+
+    <string-array name="tenurePeriod">
+        <item>6 Months</item>
+        <item>12 Months</item>
+        <item>18 Months</item>
+        <item>24 Months</item>
+    </string-array>
+
+    <string-array name="housetypes">
+        <item>mansion</item>
+        <item>bungalow</item>
+        <item>villa</item>
+        <item>terrace</item>
+        <item>townhouse</item>
+        <item>apartment</item>
+        <item>condominium</item>
+        <item>penthouse</item>
+        <item>soho</item>
+        <item>shop houses</item>
+    </string-array>
+    <string name="title_activity_agreement">agreement</string>
+
+    <string name="mansionDesc">A mansion built up on a huge piece of owned land. The size of this house bigger than a bungalow.</string>
+    <string name="bungalowDesc">A bungalow is built on a smaller owned land. The size of this house is much bigger than others local houses.</string>
+    <string name="villasDesc">Villas in Malaysia usually much fancier and the design more towards nature and traditional concept. They use a lot of natural wood color or product to build up villas.</string>
+    <string name="terraceDesc">A terraced house is a tall but narrow house which is attached on both sides to another house. </string>
+    <string name="townhouseDesc">A townhouse is similar to a terraced house. Townhouses are houses built for inner-city living.</string>
+    <string name="apartmentDesc">An apartment is an American term for a home where you live (British English: flat) in a separate home within a large building where others also have their own home.</string>
+    <string name="condominiumDesc">A condominium is a style of an apartment which is individually owned. Normally by the person living there, although you can rent from the condo owner.Each condo owner is allowed to buy and sell their own condo and own a small percentage rights to the land and common areas, like the gym or tennis court.This is different from an apartment where the entire building is owned by one person or company.</string>
+    <string name="penthouseDesc">A penthouse is an apartment or unit on the highest floor of an apartment building, condominium or hotel. Penthouses are typically differentiated from other apartments by luxury features.</string>
+    <string name="sohoDesc">Soho stands for small office home office. This type of building can convert your property into a house or it also could be a small office. Depending on the owner of the unit</string>
+    <string name="shophousesDesc">A shop house is mostly two or three stories high, with a shop on the ground floor for mercantile activity and a residence above the shop.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="channel_name">CH-name</string>
+    <string name="channel_description">CH-desc</string>
+
+</resources>
